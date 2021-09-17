@@ -1,0 +1,219 @@
+.container{
+    padding: 0;
+    margin: 0;
+    max-width: 117.9%;
+}
+
+.container-menu{
+    padding: 3% 5%;
+}
+
+.container-cart{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.container-item{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.container-edit{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    text-align: left;
+}
+
+.form-signin{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.navbar{
+    background-color: #464F41
+}
+
+.navbar .dropdown-menu{
+    left: -120%;
+}
+
+.navbar .nav-link{
+    color: white; 
+}
+
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #464F41;
+    color: white;
+}
+
+.card{
+    height: 400px;
+}
+
+.card .price img{
+    height: 25px;
+    width: auto;
+}
+
+.card img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title, .subtitle{
+    text-align: center;
+}
+
+.subtitle{
+    margin-bottom: 40px;
+}
+
+.btn.avail-stock,.btn.empty-stock{
+    margin-top: 5%;
+    margin-bottom: auto;
+    width: 100%;
+    color: white;
+} 
+
+.btn.avail-stock, .btn.cont-cart{
+    background-color: #5B8A72;
+    color: white;
+}
+
+.btn.empty-stock{
+    background-color: red;
+}
+
+.btn.avail-stock, .btn.cont-cart{
+    background-color: #5B8A72;
+    color: white;
+}
+
+.btn-edit-detail{
+    width: 49%;
+    background-color: #C64756;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-cancel-edit{
+    width: 49%;
+    background-color: #5B8A72;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+    width: 40px;
+    text-align: center;
+    border: none;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+table{
+    text-align: center;
+}
+
+.modal-body{
+    text-align:left;
+}
+
+.btn.btn-checkout{
+    background-color: #C64756;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    position: relative;
+    left: 30%;
+}
+
+.btn.btn-empty-cart{
+    border-radius: 5px;
+    border: 1px solid #C64756;
+    color: #C64756;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    position: relative;
+    left: 46%;
+}
+
+.btn.btn-add{
+    color: white;
+    background-color: #C64756;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    position: relative;
+    left: 46%;
+}
+
+.btn.btn-pay{
+    border-radius: 5px;
+    border: 1px solid #C64756;
+    color: #C64756;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    position: relative;
+    left: 28%;
+}
+
+.btn.btn-pdf{
+    color: white;
+    background-color: #C64756;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    position: relative;
+    left: 48%;
+}
+
+.cart-img{
+    width: 25px;
+    height: auto;
+}
+
+.img-table{
+    width: 18px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.btn-edit-qty{
+    border: none;
+    background-color: transparent;
+}
+
+.table-number{
+    position: relative;
+    right:40%;
+}
+
+label.table-number{
+    font-size: larger;
+    font-weight: bold;
+}
+
+input.table-number{
+    border-bottom: solid 1px;
+}
